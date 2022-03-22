@@ -6,9 +6,10 @@ plugins{
 repositories{
     jcenter()
 }
-dependencies{
+dependecies{
     implementation 'org.springframework.boot:spring-boot-started-web'
     implementation 'org.springframework.boot:spring-boot-started-data-jpa'
     implementation 'mysql:mysql-connector-java'
+    implementation 'javax.servlet:jstl:1.2'
     implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 }
