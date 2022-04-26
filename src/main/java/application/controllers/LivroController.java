@@ -11,7 +11,7 @@ import org.springframework.ui.Model;
 @RequestMapping("/livro")
 public class LivroController {
 @Autowired
-private LivroRespository livrosRepo;
+private LivroRepository livrosRepo;
     @RequestMapping("/list")
     public String list(Model model){
         model.addAttribute("livros", livrosRepo.findAll());
